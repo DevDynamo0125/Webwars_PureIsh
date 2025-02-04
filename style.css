@@ -120,7 +120,20 @@ img{
         font-size: large;
         font-family: palanquin dark;
         text-align: center;
-    }
+        }
+        .deadline{
+        background-color: rgb(215, 46, 74);
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        top: 1000px;
+        left: 0;
+        color: white;
+        text-align: center;
+        line-height: 50px; /* Center text vertically */
+        z-index: 2; /* Ensure it appears above the image */
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        }
 
         
 
