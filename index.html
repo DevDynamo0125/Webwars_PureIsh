@@ -1,67 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICCSAI website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="src/output.css" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar">
-        <div class="logo1">
-            <img src="gu_icon.png" alt="logo1" >
-        </div>
-        <div class="logo2">
-            <img src="iccsai_logo.jpeg" alt="logo2">
-        </div>
-        <div class="logo3">
-            <img src="ieee.png" alt="logo3">
-        </div>
-        <div class="logo4">
-            <img src="gustudentchapter.png" alt="logo4">
+  <nav>
+<div class="h-32 w-full bg-neutral-200 flex items-center space-x-4  justify-around z-[100]">
+  <img src="gulogo.png" alt="Image 1" class="h-16 w-50">
+  <img src="iccca_logo.png" alt="Image 2" class="h-16 w-19">
+  <img src="ieee.png" alt="Image 3" class="h-16 w-40">
+  <img src="gustudentchapter.png" alt="Image 4" class="h-16 w-40">
+  <img src="sdg.png" alt="Image 5" class="h-16 w-19">
+  <img src="wie.png" alt="Image 6" class="h-16 w-40">
+</div>
+</nav>
+<body>
+  <div class="absolute top-0 left-0 w-full  -z-10">
+    <img src="galgotias.jpg" alt="Background Image" class="w-full h-full object-cover opacity-70">  
+  </div>
+  <div class="spin absolute z-90 top-37 left-22.5  h-195 w-115 bg-cyan-700 rounded-4xl animate-pulse">  
+  </div>
+  <div class="absolute z-90 top-40 left-25 h-190 w-110 rounded-md bg-gradient-to-r from-violet-400 via-red-300 to-yellow-500 p-1 " >
+  </div>
+  <div class="absolute z-90 top-41 left-26.5  h-188 w-107 rounded-md bg-gray-800">
+    <h1 class="font-extrabold underline text-amber-50 text-4xl mt-10 ml-10 font-sans">ABOUT ICCSAI-2025</h1>
+    <p class=" text-gray-300 text-2xl mt-10 ml-7 font-serif">ICCSAI-2025 is a non-profit international conference designed to advance knowledge in Computer & Communication Engineering. With multiple tracks covering diverse topics in computing, communication, information security, and artificial intelligence, the conference fosters global collaboration and sets new directions in research.
+      <p class=" text-gray-300 text-2xl mt-10 ml-7 font-serif">ICCSAI - 2025 will be held at Galgotias University, Greater Noida, India (NCR New Delhi). This prestigious event brings together global researchers, academics, and industry professionals to discuss advancements in Communication, Security, and Artificial Intelligence.      </p>
+    </p>
+  </div>
 
-        </div>
-        <div class="logo5">
-            <img src="sdg.png" alt="logo5">
-        </div>
-        <div class="logo6">
-            <img src="wie.png" alt="logo6">
-        </div>
-        
+  <div class="absolute z-90 h-140 w-100 top-35 left-250 space-y-4">
+    <button class="bg-black h-15 w-80  opacity-50 rounded-2xl font-semibold text-white text-4xl hover:opacity-80">HOME</button>
+    <button class="bg-black h-15 w-80  opacity-50 rounded-2xl font-semibold text-white text-4xl hover:opacity-80">GUIDELINES</button>
+    <button class="bg-black h-15 w-80  opacity-50 rounded-2xl font-semibold text-white text-4xl hover:opacity-80">ICCSAI 2024</button>
+    <button class="bg-black h-15 w-80  opacity-50 rounded-2xl font-semibold text-white text-4xl hover:opacity-80">GALLERY</button>
+    <button class="bg-black h-15 w-80  opacity-50 rounded-2xl font-semibold text-white text-4xl hover:opacity-80">COMMITEE</button>
+    <button class="bg-black h-15 w-80  opacity-50 rounded-2xl font-semibold text-white text-4xl hover:opacity-80">REGISTARTION</button>
+    <button class="bg-blue-600 h-15 w-80  opacity-50 rounded-2xl font-semibold text-white text-2xl hover:opacity-80">SUBMIT YOUR PAPER</button>
+  </div>
+  <div class=" absolute overflow-hidden right-0 left-0 top-240 bg-gray-200 shadow-sm p-4 z-90 ">
+    <div class="marquee-content flex gap-4 items-center marquee">
+      <div class="px-4 py-2 bg-blue-500 text-white rounded w-full">25th December, 2024: Abstract Submission Date</div>
+       <div class="px-4 py-2 bg-green-500 text-white rounded w-full">25th January, 2025: Full Paper Submission Date</div>
+      <div class="px-4 py-2 bg-cyan-500 text-white rounded w-full">28th February, 2025: Notification of Acceptance</div>
+      <div class="px-4 py-2 bg-yellow-500 text-black rounded w-full">15th March, 2025: Registration Deadline Date</div>
+      <div class="px-4 py-2 bg-red-500 text-white rounded w-full">4th - 6th April, 2025: Conference Date</div>
     </div>
-    <div class="background">
-        <img src="galgotias.jpg" alt="background">
-        <div class="text">
-            <h1><u>About ICCSAI</u></h1>
-            The International Conference on <br> Communication, Security, and Artificial<br>Intelligence (ICCSAI) is a non-profit<br> international conference designed to <br>advance knowledge in Computer & <br>Communication Engineering. The 2025<br>edition, ICCSAI-2025, is scheduled to be<br> held from April 4th to 6th, 2025, at <br>Galgotias University in Greater Noida, India.<br> This event is technically sponsored by<br> the IEEE Uttar Pradesh Section.
-        </div>
-        <div class="buttons">
-            <button id="home">HOME</button>
-            <button id="GUIDELINES">GUIDELINES</button>
-            <button id="ICCSAI2024">ICCSAI 2024</button>
-            <button id="GALLERY">GALLERY</button>
-            <button id="COMMITTEE">COMMITTEE</button>
-            <button id="REGISTRATION">REGISTRATION</button>
-            <button id="submityourPAPER">SUBMIT YOUR PAPER</button>
-
-        </div>
-        <div class="deadline">
-            
-        </div>
-    </div>
-    
-        
-        
-           
-      
-    
-
-
-
-
-
-
-
- <script src="script.js"></script>
+  </div>
+</body>
+  
+  
 </body>
 </html>
