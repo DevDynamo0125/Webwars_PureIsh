@@ -1,0 +1,58 @@
+.back {
+    background: linear-gradient(to right, #171717, #1e40af, #db2777);
+    height: 1800vh;
+    width: 200vw;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+}
+#head {
+    transition: transform 0.3s ease;
+}
+
+#head:hover {
+    transform: translateY(-10px);
+}
+
+.back img {
+    border-radius: 10px;
+    border: 3px solid white;
+    transition: transform 0.3s ease;
+}
+
+.images, .image5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.images img, .image4 img, .image5 img, .sunilSir img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+    transition: transform 0.3s ease;
+}
+
+.images img:hover, .image4 img:hover, .image5 img:hover, .sunilSir img:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 768px) {
+    .back {
+        height: auto;
+        width: 100vw;
+    }
+
+    .images, .image5 {
+        flex-direction: column;
+    }
+
+    .images img, .image4 img, .image5 img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+}
