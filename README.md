@@ -1,6 +1,6 @@
 # 🚀 **WebWars_PureIsh**  
 
-## 📌 **Project Title:** *To be uploaded soon*  
+## 📌 **Project Title:** *IEEE WEBSITE*  
 
 ## 👥 **Team Name & Members**  
 - **🛡️ Team Name:** PureIsh  
@@ -10,10 +10,7 @@
   - 🌟 **Sneha** (24SCSE1180140)  
 
 ## 🛠️ **Tech Stack Used**  
-- 🎨 **Frontend:** HTML, CSS, JavaScript  
-- ⚙️ **Backend:** Node.js / Express.js  
-- 🗄️ **Database:** MongoDB / MySQL / Firebase  
-- 🔧 **Other Tools:** GitHub, Vercel, Netlify  
+- 🎨 **Frontend:** HTML, Tailwind CSS, JavaScript  
 
 ## 🏗️ **Installation & Setup Instructions**  
 1. 📥 **Clone the repository:**  
@@ -23,18 +20,9 @@
    ```
 2. 📦 **Install dependencies:**  
    ```sh
-   npm install
-   ```
-3. 🚀 **Start the development server:**  
-   ```sh
-   npm start
-   ```
-4. 🌐 **Open the project in your browser at:**  
-   ```
-   http://localhost:3000
-   ```
+   Run live server of index.html
 
-## 🔗 **Deployment Link**  
-🛠️ *To be uploaded soon*  
+   ```
+ 
 
 
